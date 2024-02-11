@@ -1,0 +1,42 @@
+.about-container{
+    width: 100%;
+    margin: 0% auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100%;
+    background-color: #fff;
+}
+.about-content{
+    width: 65%;
+    padding: 4% 10% 4% 0 ;
+    text-align: justify;
+}
+
+.about-content h1{
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: serif;
+    text-align: center;
+
+}
+.about-content h2{
+    font-weight: 700;
+    padding: 5% 0;
+    
+}
+.about-content p{
+    text-align: justify;
+    font-size: 20px;
+}
+.about-content span{
+    color: #CA8A04;
+}
+@media screen and (max-width: 1023px) {
+    .about-content{
+        width: 90%;
+    }
+}
+
+
